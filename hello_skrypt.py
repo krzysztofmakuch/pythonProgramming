@@ -1,0 +1,2 @@
+#skrypt:
+print("Hello world")
