@@ -1,3 +1,5 @@
+#przyklad na dziedziczenie, niekoniecznie poprawny matematycznie
+
 class prostokaty:
     def __init__(self, podstawa, wysokosc):
         self.h = wysokosc
@@ -15,7 +17,7 @@ class prostokaty:
 
     #wiedziec, ze w ten sposob mozna spowodowac automatyczne wywolanie metody
     #i przypisanie wyniku do zmiennej
-    o = property(obwod)
+    k = property(obwod)
 
     #podobno dobra praktyka:
     def __str__(self):
